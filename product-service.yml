@@ -8,6 +8,6 @@ spring:
         format_sql: true
     open-in-view: true
   datasource:
-    username: 'juke'
-    password: '{cipher}48d9c5bba24c4a7a7498333d7d894b24178cc4b16a4b4da456b018f50d4852d8'
+    username: '{cipher}cb6c42ba4a5f03dc14cd58a2731c222bca1009bd8bc713f8e1fb5e5b2d53b9c2'
+    password: '{cipher}a4bc25e0c79f842dfe12b6c441d7899be921a1e302409415f1b464f6cd431f27'
     url: 'jdbc:postgresql://localhost:5432/product'
