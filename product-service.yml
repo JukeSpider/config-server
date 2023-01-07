@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    properties:
+      hibernate:
+        dialect: 'org.hibernate.dialect.PostgreSQLDialect'
+        format_sql: true
+    open-in-view: true
+  datasource:
+    username: 'juke'
+    password: '{cipher}48d9c5bba24c4a7a7498333d7d894b24178cc4b16a4b4da456b018f50d4852d8'
+    url: 'jdbc:postgresql://localhost:5432/product'
